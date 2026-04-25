@@ -1,0 +1,72 @@
+body{
+    background-color:  rgb(89, 153, 117); 
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    color:rgb(239, 245, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 70px;
+
+}
+
+hr{
+    width:80%;
+    margin:auto;
+}
+
+
+button{
+    background-color: aquamarine;
+}
+
+.addtask{
+    background-color: beige;
+    width: 200px;
+    aspect-ratio: 3/1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius:10px ;
+
+}
+
+#taskList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.task-card{
+    background-color: wheat;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-buttons{
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.delete-btn {
+    background-color: #ff6b6b;
+}
+
+.complete-btn {
+    background-color: #51cf66;
+}
